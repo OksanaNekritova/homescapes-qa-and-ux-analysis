@@ -20,7 +20,7 @@
   *Attachment:* 📸 [Screenshot: Save Progress Modal Contradiction](https://github.com/user-attachments/assets/71e0e02c-60c2-4728-9deb-fb954ce1d172)
 * **Unresponsive UI / Input Lag on Mini-Game "Play" Button:**  
   Tapping the *"Play"* button (with the exclamation badge) in the Mini-Games menu requires multiple consecutive taps before triggering the level load scene. The lack of an immediate visual pressed-state or loading indicator leads to user frustration.
-  *Attachment:* 🎬 [Watch Video: Play Button Input Lag](https://github.com/user-attachments/assets/9810bcc5-efdc-4669-bc5d-1a96ea531e5a(
+  *Attachment:* 🎬 [Watch Video: Play Button Input Lag](https://github.com/user-attachments/assets/9810bcc5-efdc-4669-bc5d-1a96ea531e5a)
 
 ---
 
