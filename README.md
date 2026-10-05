@@ -11,7 +11,9 @@
 
 * **Language Selector Native Endonym Fallback:**  
   When switching to **Simplified Chinese** or **Traditional Chinese**, all other language names in the selector modal switch to Chinese ideograms (e.g., *English* becomes *英文*). If a non-Chinese player accidentally selects this language, they lose the ability to navigate back. Language names in selectors should always retain their native script (Endonyms).
-  *Attachment:* 🎬 [Watch Video: Language Selector Bug](l10n_language_bug.mp4)
+*Attachment:* 🎬 [Watch Video: Language Selector Bug] https://github.com/user-attachments/assets/f4fa00a1-c1e8-421d-bfe8-3554714a5fff
+
+*Attachment:* 🎬 [Watch Video: Language Selector Bug](l10n_language_bug.mp4)
 * **Non-Interactive Event Energy Counter (`5/1000` Toolbar):**  
   Tapping the blue energy indicator (`5/1000`) on the top bar yields no UI response or informational tooltip. For new players (FTUE), this lacks clarity—adding an explanatory pop-up on tap would improve usability.
   *Attachment:* 🎬 [Watch Video: Energy Counter UI Issue](energy_toolbar_ux.mp4)
