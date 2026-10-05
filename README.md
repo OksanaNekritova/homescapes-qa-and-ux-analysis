@@ -11,12 +11,16 @@
 
 * **Language Selector Native Endonym Fallback:**  
   When switching to **Simplified Chinese** or **Traditional Chinese**, all other language names in the selector modal switch to Chinese ideograms (e.g., *English* becomes *英文*). If a non-Chinese player accidentally selects this language, they lose the ability to navigate back. Language names in selectors should always retain their native script (Endonyms).
+  *Attachment:* 🎬 [Watch Video: Language Selector Bug](l10n_language_bug.mp4)
 * **Non-Interactive Event Energy Counter (`5/1000` Toolbar):**  
   Tapping the blue energy indicator (`5/1000`) on the top bar yields no UI response or informational tooltip. For new players (FTUE), this lacks clarity—adding an explanatory pop-up on tap would improve usability.
+  *Attachment:* 🎬 [Watch Video: Energy Counter UI Issue](energy_toolbar_ux.mp4)
 * **Confusing Account Linking Text ("Save Progress" Modal):**  
   In the settings overlay, under *"Connect to save progress"*, the action buttons display *"Log out of Facebook"* / *"Log out of Google"* when already connected. The call-to-action contradicts the dialog header, confusing users trying to verify their progress save status.
+  *Attachment:* 📸 [Screenshot: Progress Save Modal Logic Contradiction](save_progress_modal.jpg)
 * **Unresponsive UI / Input Lag on Mini-Game "Play" Button:**  
   Tapping the *"Play"* button (with the exclamation badge) in the Mini-Games menu requires multiple consecutive taps before triggering the level load scene. The lack of an immediate visual pressed-state or loading indicator leads to user frustration.
+  *Attachment:* 🎬 [Watch Video: Play Button Input Lag](minigame_play_button_lag.mp4)
 
 ---
 
@@ -45,6 +49,7 @@
   3. Inspect the labels of other language options in the modal.
 * **Expected Result:** Language names remain displayed in their native endonyms (e.g., *English*, *Deutsch*, *Русский*).
 * **Actual Result:** All language names are translated into Chinese ideograms (e.g., *English* -> *英文*), making language recovery difficult for non-native speakers.
+* *Attachments:* 🎬 [Video Recording: Chinese Language Selection Glitch](l10n_language_bug.mp4)
 
 #### Bug Report 2: Contradictory button labeling in "Save Progress" settings modal
 * **Severity:** Minor  
@@ -59,6 +64,7 @@
   * If connected: Header/Status displays *"Progress Saved"* or *"You are connected"* with dynamic status indicators (e.g., *"Connected"* or *"Disconnect"*).  
   * If NOT connected: Header displays *"Connect to save progress"* with action buttons prompts like *"Connect with Facebook"* / *"Connect with Google"*.
 * **Actual Result:** Header displays *"Connect to save progress"*, while the action buttons say *"Log out of Facebook"* / *"Log out of Google"*, creating a logical contradiction for an already-connected account.
+* *Attachment:* 📸 [Screenshot: Progress Save Modal Logic Contradiction](save_progress_modal.jpg)
 
 ---
 
